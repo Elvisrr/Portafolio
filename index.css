@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    background-color: rgb(129, 116, 116);
+
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(85, 50, 50);
+}
+
+button:hover{
+    background-color: rgb(186, 88, 8);
+}
+
+.container{
+    max-width: 1400px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: rgb(83, 120, 153);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(204, 155, 65);
+    font-size: 1.25em;
+
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+header a{
+    padding: 20px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(204, 155, 65);
+}
+
+header a:hover{
+    color: rgb(174, 32, 32);
+}
+
+#Un-poco-de-mi{
+    background-color: rgb(129, 116, 116);
+}
+
+#Un-poco-de-mi .container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#Un-poco-de-mi .text{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Un-poco-de-mi .container .text h1{
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+#Un-poco-de-mi .img-container{
+
+    background-size: auto;
+}
+#Un-poco-de-mi .container .img-container{
+    max-height: 1000px;    
+    background-size: contain;
+  }
+
+
+
+
+#Estudios{
+    background-color: rgb(129, 116, 116);
+    background-size:  cover;
+}
+
+#Estudios .container{
+    padding: 150px 12px;
+}
+
+
+#Estudios .estudios{   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-position: center;
+    background-size:  cover;
+    padding: 100px ;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.estudios:first-child{
+    background-image:linear-gradient(
+        0deg,
+        rgba(12, 10, 10, 0.637),
+        rgba(12, 11, 11, 0.493)
+    )    
+    ,url('https://i.ibb.co/Wpq2W1HT/Estudios.webp');    
+
+}
+
+.estudios:nth-child(2){
+    background-image:linear-gradient(
+        0deg,
+        rgba(250, 250, 250, 0.5),
+        rgba(255, 245, 245, 0.479)
+    )    
+    ,url('https://i.ibb.co/qLtwJwY5/Habilidades.png');
+
+    color: rgb(24, 11, 11);
+    font-weight: bold;
+}
+
+#Experiencia{
+    background-color: rgb(129, 116, 116);
+    background-position: cover;
+    background-size:  cover;
+    margin: 0%;
+
+}
+
+#Experiencia{
+
+}
+
+
+
+footer{
+    background-color: rgb(188, 188, 188);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
